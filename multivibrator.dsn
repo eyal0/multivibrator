@@ -1,0 +1,222 @@
+(pcb /usr/local/google/home/eyalsoha/private/kicad/multivibrator.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "4.0.4+e1-6308~48~ubuntu14.04.1-stable")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  63500 -58420  63500 -149860  154940 -149860  154940 -58420
+            63500 -58420  63500 -58420)
+    )
+    (plane GND (polygon F.Cu 0  154940 -149860  63500 -149860  63500 -58420  154940 -58420))
+    (via "Via[0-1]_600:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Discret:CP36V
+      (place C1 87630 -97790 front 0 (PN 10uF))
+      (place C2 133350 -96520 front 180 (PN 10uF))
+    )
+    (component "LEDs:LED-5MM"
+      (place D1 83820 -142240 front 180 (PN LED))
+      (place D2 137160 -142240 front 0 (PN LED))
+    )
+    (component "Transistors_OldSowjetAera:OldSowjetaera_Transistor_Type-I_BigPads"
+      (place Q1 81280 -128270 front 270 (PN Q_NPN_BCE))
+      (place Q2 139700 -128270 front 270 (PN Q_NPN_BCE))
+    )
+    (component Resistors_ThroughHole:Resistor_Horizontal_RM7mm
+      (place R1 81280 -63500 front 270 (PN 330))
+      (place R2 93980 -63500 front 270 (PN 10k))
+      (place R3 127000 -63500 front 270 (PN 10k))
+      (place R4 139700 -63500 front 270 (PN 330))
+    )
+    (component Connect:BARREL_JACK
+      (place CON1 111760 -142240 front 90 (PN BARREL_JACK))
+    )
+  )
+  (library
+    (image Discret:CP36V
+      (outline (path signal 150  19145 0  18208 -5916.13  15488.6 -11253.2  11253.2 -15488.6
+            5916.13 -18208  0 -19145  -5916.13 -18208  -11253.2 -15488.6
+            -15488.6 -11253.2  -18208 -5916.13  -19145 0  -18208 5916.13
+            -15488.6 11253.2  -11253.2 15488.6  -5916.13 18208  0 19145
+            5916.13 18208  11253.2 15488.6  15488.6 11253.2  18208 5916.13))
+      (pin Round[A]Pad_10160_um 2 6350 0)
+      (pin Rect[A]Pad_10160x10160_um 1 -6350 0)
+    )
+    (image "LEDs:LED-5MM"
+      (outline (path signal 50  -1500 1550  -1500 -1550))
+      (outline (path signal 150  -1230 -1500  -1230 1500))
+      (outline (path signal 150  3787.94 0  3664.7 -778.085  3307.05 -1480.01  2750.01 -2037.05
+            2048.09 -2394.7  1270 -2517.94  491.915 -2394.7  -210.005 -2037.05
+            -767.053 -1480.01  -1124.7 -778.085  -1247.94 0  -1124.7 778.085
+            -767.053 1480.01  -210.005 2037.05  491.915 2394.7  1270 2517.94
+            2048.09 2394.7  2750.01 2037.05  3307.05 1480.01  3664.7 778.085))
+      (pin Rect[A]Pad_2000x1900_um (rotate 90) 1 0 0)
+      (pin Round[A]Pad_1900_um 2 2540 0)
+    )
+    (image "Transistors_OldSowjetAera:OldSowjetaera_Transistor_Type-I_BigPads"
+      (outline (path signal 150  -4400 0  -4419.58 -123.607  -4476.39 -235.114  -4564.89 -323.607
+            -4676.39 -380.423  -4800 -400  -4923.61 -380.423  -5035.11 -323.607
+            -5123.61 -235.114  -5180.42 -123.607  -5200 0  -5180.42 123.607
+            -5123.61 235.114  -5035.11 323.607  -4923.61 380.423  -4800 400
+            -4676.39 380.423  -4564.89 323.607  -4476.39 235.114  -4419.58 123.607))
+      (outline (path signal 150  4000 0  3804.23 -1236.07  3236.07 -2351.14  2351.14 -3236.07
+            1236.07 -3804.23  0 -4000  -1236.07 -3804.23  -2351.14 -3236.07
+            -3236.07 -2351.14  -3804.23 -1236.07  -4000 0  -3804.23 1236.07
+            -3236.07 2351.14  -2351.14 3236.07  -1236.07 3804.23  0 4000
+            1236.07 3804.23  2351.14 3236.07  3236.07 2351.14  3804.23 1236.07))
+      (outline (path signal 150  5600 0  5325.92 -1730.49  4530.49 -3291.6  3291.6 -4530.49
+            1730.49 -5325.92  0 -5600  -1730.49 -5325.92  -3291.6 -4530.49
+            -4530.49 -3291.6  -5325.92 -1730.49  -5600 0  -5325.92 1730.49
+            -4530.49 3291.6  -3291.6 4530.49  -1730.49 5325.92  0 5600  1730.49 5325.92
+            3291.6 4530.49  4530.49 3291.6  5325.92 1730.49))
+      (pin Oval[A]Pad_1400x2500_um 2 0 0)
+      (pin Oval[A]Pad_1400x2500_um 1 -2000 0)
+      (pin Oval[A]Pad_1400x2500_um 3 2000 0)
+    )
+    (image Resistors_ThroughHole:Resistor_Horizontal_RM7mm
+      (outline (path signal 50  -1250 1500  8850 1500))
+      (outline (path signal 50  -1250 -1500  -1250 1500))
+      (outline (path signal 50  8850 1500  8850 -1500))
+      (outline (path signal 50  -1250 -1500  8850 -1500))
+      (outline (path signal 150  1270 1270  6350 1270))
+      (outline (path signal 150  6350 1270  6350 -1270))
+      (outline (path signal 150  6350 -1270  1270 -1270))
+      (outline (path signal 150  1270 -1270  1270 1270))
+      (pin Round[A]Pad_1998.98_um 1 0 0)
+      (pin Round[A]Pad_1998.98_um 2 7620 0)
+    )
+    (image Connect:BARREL_JACK
+      (outline (path signal 150  -4000.5 4500.88  -4000.5 -4500.88))
+      (outline (path signal 150  -7500.62 4500.88  -7500.62 -4500.88))
+      (outline (path signal 150  -7500.62 -4500.88  7000.24 -4500.88))
+      (outline (path signal 150  7000.24 -4500.88  7000.24 4500.88))
+      (outline (path signal 150  7000.24 4500.88  -7500.62 4500.88))
+      (pin Rect[A]Pad_3500.12x3500.12_um 1 6200.14 0)
+      (pin Rect[A]Pad_3500.12x3500.12_um 2 200.66 0)
+      (pin Rect[A]Pad_3500.12x3500.12_um 3 3200.4 -4699)
+    )
+    (padstack Round[A]Pad_10160_um
+      (shape (circle F.Cu 10160))
+      (shape (circle B.Cu 10160))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1900_um
+      (shape (circle F.Cu 1900))
+      (shape (circle B.Cu 1900))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1998.98_um
+      (shape (circle F.Cu 1998.98))
+      (shape (circle B.Cu 1998.98))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1400x2500_um
+      (shape (path F.Cu 1400  0 -550  0 550))
+      (shape (path B.Cu 1400  0 -550  0 550))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_2000x1900_um
+      (shape (rect F.Cu -1000 -950 1000 950))
+      (shape (rect B.Cu -1000 -950 1000 950))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_3500.12x3500.12_um
+      (shape (rect F.Cu -1750.06 -1750.06 1750.06 1750.06))
+      (shape (rect B.Cu -1750.06 -1750.06 1750.06 1750.06))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_10160x10160_um
+      (shape (rect F.Cu -5080 -5080 5080 5080))
+      (shape (rect B.Cu -5080 -5080 5080 5080))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(C1-Pad2)"
+      (pins C1-2 Q2-1 R2-2)
+    )
+    (net "Net-(C1-Pad1)"
+      (pins C1-1 Q1-2 R1-2)
+    )
+    (net "Net-(C2-Pad2)"
+      (pins C2-2 Q1-1 R3-2)
+    )
+    (net "Net-(C2-Pad1)"
+      (pins C2-1 Q2-2 R4-2)
+    )
+    (net GND
+      (pins D1-1 D2-1 CON1-2 CON1-3)
+    )
+    (net "Net-(D1-Pad2)"
+      (pins D1-2 Q1-3)
+    )
+    (net "Net-(D2-Pad2)"
+      (pins D2-2 Q2-3)
+    )
+    (net VCC
+      (pins R1-1 R2-1 R3-1 R4-1 CON1-1)
+    )
+    (class kicad_default "" GND "Net-(C1-Pad1)" "Net-(C1-Pad2)" "Net-(C2-Pad1)"
+      "Net-(C2-Pad2)" "Net-(D1-Pad2)" "Net-(D2-Pad2)" VCC
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+    (wire (path F.Cu 250  93980 -97790  121920 -125730  139160 -125730  139700 -126270)(net "Net-(C1-Pad2)")(type protect))
+    (wire (path F.Cu 250  93980 -71120  93980 -97790)(net "Net-(C1-Pad2)")(type protect))
+    (wire (path F.Cu 250  81280 -97790  74930 -105410)(net "Net-(C1-Pad1)")(type protect))
+    (wire (path F.Cu 250  74930 -128270  81280 -128270)(net "Net-(C1-Pad1)")(type protect))
+    (wire (path F.Cu 250  74930 -105410  74930 -128270)(net "Net-(C1-Pad1)")(type protect))
+    (wire (path F.Cu 250  81280 -71120  81280 -97790)(net "Net-(C1-Pad1)")(type protect))
+    (wire (path B.Cu 250  82010 -125730  81280 -126270)(net "Net-(C2-Pad2)")(type protect))
+    (wire (path F.Cu 250  127000 -71120  127000 -96520)(net "Net-(C2-Pad2)")(type protect))
+    (wire (path F.Cu 250  139700 -96520  146050 -102870)(net "Net-(C2-Pad1)")(type protect))
+    (wire (path F.Cu 250  146050 -128270  139700 -128270)(net "Net-(C2-Pad1)")(type protect))
+    (wire (path F.Cu 250  146050 -102870  146050 -128270)(net "Net-(C2-Pad1)")(type protect))
+    (wire (path F.Cu 250  139700 -71120  139700 -96520)(net "Net-(C2-Pad1)")(type protect))
+    (wire (path F.Cu 250  81280 -142240  81280 -130270)(net "Net-(D1-Pad2)")(type protect))
+    (wire (path F.Cu 250  111760 -136040  97640.1 -136040)(net VCC)(type protect))
+    (wire (path F.Cu 250  67310 -63500  81280 -63500)(net VCC)(type protect))
+    (wire (path F.Cu 250  67310 -147320  67310 -63500)(net VCC)(type protect))
+    (wire (path F.Cu 250  86360 -147320  67310 -147320)(net VCC)(type protect))
+    (wire (path F.Cu 250  97640.1 -136040  86360 -147320)(net VCC)(type protect))
+    (wire (path F.Cu 250  93980 -63500  81280 -63500)(net VCC)(type protect))
+    (wire (path F.Cu 250  127000 -63500  139700 -63500)(net VCC)(type protect))
+    (wire (path F.Cu 250  93980 -63500  127000 -63500)(net VCC)(type protect))
+  )
+)
