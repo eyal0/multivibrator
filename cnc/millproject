@@ -10,7 +10,7 @@ back=../gerbers/multivibrator-B.Cu.gbr
 drill=../gerbers/multivibrator.drl
 outline=../gerbers/multivibrator-Edge.Cuts.gbr
 
-zwork=-0.4
+zwork=-0.1
 zsafe=10
 voronoi=true
 mill-feed=360
@@ -19,7 +19,7 @@ mill-speed=10000 # this is the max for Nomad Carbide 3D printer
 vectorial=true
 
 cutter-diameter=3
-zcut=-2 # The FR4 measured 1.57mm
+zcut=-1.6 # The FR4 measured 1.57mm
 cut-feed=360
 cut-vertfeed=30
 cut-speed=10000
@@ -32,7 +32,7 @@ drill-side=auto
 drill-speed=10000
 milldrill=false
 onedrill=false
-zdrill=-2.5 # The FR4 measured 1.57mm
+zdrill=-2 # The FR4 measured 1.57mm
 
 bridges=5 # width of bridges
 bridgesnum=4 # As many as possible
