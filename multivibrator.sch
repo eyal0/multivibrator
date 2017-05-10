@@ -110,23 +110,23 @@ F 3 "" H 3800 2650 50  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Q_NPN_BCE Q1
+L Q_NPN_EBC Q1
 U 1 1 57D00F4C
 P 2750 3050
 F 0 "Q1" H 3050 3100 50  0000 R CNN
-F 1 "Q_NPN_BCE" H 3350 3000 50  0000 R CNN
-F 2 "Transistors_OldSowjetAera:OldSowjetaera_Transistor_Type-I_BigPads" H 2950 3150 50  0001 C CNN
+F 1 "Q_NPN_EBC" H 3350 3000 50  0000 R CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 2950 3150 50  0001 C CNN
 F 3 "" H 2750 3050 50  0000 C CNN
 	1    2750 3050
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Q_NPN_BCE Q2
+L Q_NPN_EBC Q2
 U 1 1 57D00F94
 P 3950 3050
 F 0 "Q2" H 4250 3100 50  0000 R CNN
-F 1 "Q_NPN_BCE" H 4550 3000 50  0000 R CNN
-F 2 "Transistors_OldSowjetAera:OldSowjetaera_Transistor_Type-I_BigPads" H 4150 3150 50  0001 C CNN
+F 1 "Q_NPN_EBC" H 4550 3000 50  0000 R CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 4150 3150 50  0001 C CNN
 F 3 "" H 3950 3050 50  0000 C CNN
 	1    3950 3050
 	1    0    0    -1  
