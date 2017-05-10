@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /usr/local/google/home/eyalsoha/private/kicad/multivibrator.sch)
-    (date "Wed 07 Sep 2016 06:09:13 PM IDT")
+    (source /usr/local/google/home/eyalsoha/private/kicad/multivibrator/multivibrator.sch)
+    (date "Wed 10 May 2017 05:44:20 PM IDT")
     (tool "Eeschema 4.0.4+e1-6308~48~ubuntu14.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
