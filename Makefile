@@ -1,6 +1,9 @@
 
 all: out/pcb.ngc out/multivibrator-F.SilkS.svg
 
+clean:
+	rm -rf out
+
 all_gerber: out/intermediate/multivibrator-B.Cu.gbr out/intermediate/multivibrator.drl out/intermediate/multivibrator-Edge.Cuts.gbr out/intermediate/multivibrator-F.SilkS.gbr
 
 out/intermediate/multivibrator-B.Cu%gbr out/intermediate/multivibrator%drl out/intermediate/multivibrator-Edge.Cuts%gbr out/intermediate/multivibrator-F.SilkS%gbr: src/multivibrator.kicad_pcb

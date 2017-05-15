@@ -90,6 +90,8 @@ plot_plan = [
               lambda: set_default_opts(popt)),
     LayerPlan("F.SilkS", F_SilkS, "Silk top",
               lambda: set_default_opts(popt, exclude_edge_layer=False)),
+    LayerPlan("B.Mask", B_Mask, "Mask bottom",
+              lambda: set_default_opts(popt, exclude_edge_layer=False)),
     LayerPlan("Edge.Cuts", Edge_Cuts, "Edges",
               lambda: set_default_opts(popt)),
 ]
