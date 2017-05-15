@@ -6,10 +6,10 @@ nog64=1
 zero-start=1
 
 #front= NO FRONT.
-back=../out/intermediate/multivibrator-B.Cu.gbr
-drill=../out/intermediate/multivibrator.drl
-outline=../out/intermediate/multivibrator-Edge.Cuts.gbr
-output-dir=../out/intermediate
+back=out/intermediate/multivibrator-B.Cu.gbr
+drill=out/intermediate/multivibrator.drl
+outline=out/intermediate/multivibrator-Edge.Cuts.gbr
+output-dir=out/intermediate
 
 zwork=-0.1
 zsafe=10
