@@ -23,7 +23,7 @@ $(int_dir)/panelized.placement%txt $(int_dir)/panelized-F.SilkS%gbr $(int_dir)/p
 all_ngc: $(int_dir)/back.ngc $(int_dir)/drill.ngc $(int_dir)/outline.ngc
 
 $(int_dir)/back%ngc $(int_dir)/drill%ngc $(int_dir)/outline%ngc: $(int_dir)/panelized-B.Cu%gbr $(int_dir)/panelized%drl $(int_dir)/panelized-Edge.Cuts%gbr $(int_dir)/panelized-F.SilkS%gbr millproject
-	pcb2gcode
+	../../pcb2gcode/pcb2gcode/pcb2gcode
 
 out/pcb.ngc: $(int_dir)/back.ngc $(int_dir)/drill.ngc $(int_dir)/outline.ngc
 	./scripts/unify_gcode.py > out/pcb.ngc
