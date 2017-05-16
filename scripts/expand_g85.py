@@ -67,7 +67,6 @@ for line in fileinput.input(args.drill_files):
                                             protrusion))
         drill_count = int(math.ceil(distance/step_size))+1  # The number of drill holes to make
         for drill in shuffle_steps(xrange(drill_count)):
-            print drill
             ratio = drill/(drill_count-1)
             x = start_x * (1-ratio) + end_x * (ratio)
             y = start_y * (1-ratio) + end_y * (ratio)
