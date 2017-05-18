@@ -1,8 +1,6 @@
 int_dir := out/intermediate
 
-
-
-all: out/pcb.ngc out/multivibrator-F.SilkS.svg
+all: out/pcb.ngc out/panelized-F.SilkS.svg
 
 clean:
 	rm -rf out
@@ -28,5 +26,5 @@ $(int_dir)/back%ngc $(int_dir)/drill%ngc $(int_dir)/outline%ngc: $(int_dir)/pane
 out/pcb.ngc: $(int_dir)/back.ngc $(int_dir)/drill.ngc $(int_dir)/outline.ngc
 	./scripts/unify_gcode.py > out/pcb.ngc
 
-out/multivibrator-F.SilkS.svg: $(int_dir)/multivibrator-F.SilkS.gbr
-	gerber2svg -p --out out -- $(int_dir)/multivibrator-F.SilkS.gbr
+out/panelized-F.SilkS.svg: $(int_dir)/panelized-F.SilkS.gbr
+	gerber2svg -p --out out -- $^
