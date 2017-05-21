@@ -13,13 +13,14 @@ output-dir=out/intermediate
 
 zwork=-0.1
 zsafe=10
-voronoi=true
+voronoi=false
+offset=0.254
 mill-feed=360
 mill-vertfeed=30
 mill-speed=10000 # this is the max for Nomad Carbide 3D printer
 vectorial=true
 
-cutter-diameter=3
+cutter-diameter=2.5
 zcut=-1.8 # The FR4 measured 1.57mm
 cut-feed=360
 cut-vertfeed=60
