@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:multivibrator-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -132,7 +133,7 @@ F 3 "" H 3950 3050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D2
+L LED-RESCUE-multivibrator D2
 U 1 1 57D0105D
 P 4050 3550
 F 0 "D2" H 4050 3650 50  0000 C CNN
@@ -143,7 +144,7 @@ F 3 "" H 4050 3550 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D1
+L LED-RESCUE-multivibrator D1
 U 1 1 57D0111A
 P 2650 3550
 F 0 "D1" H 2650 3650 50  0000 C CNN
@@ -291,6 +292,6 @@ F 1 "CONN_01X02" V 1500 1350 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" H 1400 1350 50  0001 C CNN
 F 3 "" H 1400 1350 50  0000 C CNN
 	1    1400 1350
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC
