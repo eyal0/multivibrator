@@ -3,7 +3,7 @@
   (general
     (links 16)
     (no_connects 0)
-    (area 78.664999 62.154999 119.455001 88.975001)
+    (area 78.664999 62.154999 119.493 89.013)
     (thickness 1.6)
     (drawings 5)
     (tracks 35)
@@ -530,8 +530,8 @@
   (gr_line (start 119.38 63.5) (end 118.11 62.23) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 119.38 88.9) (end 119.38 63.5) (angle 90) (layer Edge.Cuts) (width 0.15))
 
-  (segment (start 92.71 74.93) (end 100.33 74.93) (width 0.7874) (layer B.Cu) (net 1) (status 400000))
-  (segment (start 115.57 82.55) (end 111.76 82.55) (width 0.7874) (layer B.Cu) (net 1) (tstamp 5921B1A9) (status 800000))
+  (segment (start 92.71 74.93) (end 100.33 74.93) (width 0.7874) (layer B.Cu) (net 1))
+  (segment (start 115.57 82.55) (end 111.76 82.55) (width 0.7874) (layer B.Cu) (net 1) (tstamp 5921B1A9))
   (segment (start 118.11 80.01) (end 115.57 82.55) (width 0.7874) (layer B.Cu) (net 1) (tstamp 5921B1A8))
   (segment (start 118.11 72.39) (end 118.11 80.01) (width 0.7874) (layer B.Cu) (net 1) (tstamp 5921B1A7))
   (segment (start 115.57 69.85) (end 118.11 72.39) (width 0.7874) (layer B.Cu) (net 1) (tstamp 5921B1A6))
